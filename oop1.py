@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+     # -*- coding: utf-8 -*-
 """
 Created on Sun Jan 28 21:24:52 2024
 
@@ -12,7 +12,10 @@ class Talaba:
         self.ism = ism
         self.fam = fam
         self.tyil = tyil
+        
+    def tanishtir(self):
+        return f"Ismim {self.ism}"
 
 talaba1 = Talaba("Hasan", "Turdimurotov", 2002)
 
-print(talaba1.fam, talaba1.ism)
+print(talaba1.tanishtir()) 
