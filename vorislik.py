@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Vorislik
+Vorislik and Polimorfizm
 
 @author: user
 """
@@ -43,5 +43,13 @@ class Talaba(Shaxs):
     
     def get_bosqich(self):
         return self.bosqich
+    
+    def get_info(self):
+        
+        info = f"Talaba: {self.ism}  {self.familiya}.  "
+        info += f"Passport seriya: {self.passport}  Id_raqam: {self.idraqam}"
+        return info
+    
+    
     
     
